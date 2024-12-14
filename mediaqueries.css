@@ -1,0 +1,428 @@
+@media (min-width:1000px){ 
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Nunito", sans-serif;
+        background-color: #ffffff;
+    }
+    .container-xxl{
+     display: flex;
+     align-items: center;
+    
+     justify-content: center;
+    
+    }
+    .text-banner{
+     overflow: hidden;
+     display: inline-block;
+     transform: translateY(100%);
+   opacity: 0;
+   animation: slideIn 1s ease-out forwards;
+     width: 50%; 
+    }
+    .title-energia{
+     font-weight: bolder;
+    
+    }
+   
+    #image-banner img{
+     width: 45%;
+     margin-left: 15vw;
+   
+     overflow: hidden;
+   display: inline-block;
+   transform: translateY(100%);
+ opacity: 0;
+ animation: slideIn 1s ease-out forwards;
+    }
+  
+  
+     .title-energia{
+       font-size: 350%;
+         color: #fbbb2c;
+      }
+     .subtitle-energia{
+        color: #292f6d;
+         font-size: 150%;
+         }
+ }
+ .second-banner-container{
+     background-color: #fbbb2c;
+     width: 100%; 
+     height: auto;
+     justify-content: center; 
+     align-items: center;
+     display: flex;
+     padding-bottom: 10vh;
+     padding-top: 5vh;
+     padding-left: 2vh;
+ }
+ .title-second_banner h3{
+     font-family: "Nunito", sans-serif;
+     margin-top: 10%;
+     justify-content: center;
+     margin-left: 35%;
+    font-weight: bold;
+    font-size: 270%;
+    padding-bottom: 3%;
+ }
+ .container-xxl_2{
+    
+     display: flex;
+ }
+ .serviços-banner-container{
+     
+ }
+ .row{
+     justify-content: center;
+     align-items: center;
+ }
+ .col-md-4{
+     width: 100%;
+   
+ }
+ #container-serviços{
+     display: flex;
+ }
+ .title_banner-serviços h3{
+     font-family: "Nunito", sans-serif;
+   padding-top: 20vh;
+     justify-content: center;
+     margin-left: 35%;
+    font-weight: bold;
+    
+    padding-bottom: 3%;
+ }
+ .title_banner-serviços{
+     font-size: 130%;
+ }
+ .container-xxl_3{
+     display: flex;
+    background-color: #292f6d;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+    width: 300%;
+ 
+  
+  
+  
+ }
+ 
+ .serviços-banner-container h3{
+     margin-left: 42%;
+     font-size: 250%;
+     font-weight: bold;
+    color: #292f6d;
+ }
+
+ .image-serviços{
+   display: block !important;
+   margin-top: 20vh;
+background-image: url(./imagem\ .jpg);
+background-size: 30vw ;
+width: 30vw;
+background-repeat: no-repeat;
+margin-left: 10vw;
+margin-top: 5%;
+ }
+  
+ 
+ .text-serviços{
+  margin-top: 2vh;
+   width: 50%;
+   padding-left: 2vw;
+ 
+}
+.text-produtos{
+  margin-top: 2vh;
+   width: 50%;
+   padding-left: 2vw;
+ 
+}
+ .text-serviços h4{
+ color: #ffffff;
+ font-size: 230%;
+ overflow: hidden;
+  
+    width: 100%;
+ 
+ }
+ .text-produtos h4{
+  color: #ffffff;
+  font-size: 230%;
+  overflow: hidden;
+  object-fit: cover;
+  display: inline-block;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards;
+     width: 100%;
+  
+  }
+ .second_text-serviços{
+     font-size: 145%;
+     width: 90%;
+  
+ }
+ .second_text-produtos{
+  font-size: 145%;
+     width: 90%;
+     object-fit: cover;
+     overflow: hidden;
+     display: inline-block;
+     transform: translateY(100%);
+   opacity: 0;
+   animation: slideIn 1s ease-out forwards
+  }
+ @keyframes slideIn {
+     from {
+       transform: translateY(100%);
+       opacity: 0;
+     }
+     to {
+       transform: translateY(0);
+       opacity: 1;
+     }
+ 
+   }
+  
+ .btn-2{
+     border: 3px solid #fbbb2c;
+     width: 60vh;
+     margin-left: 2vw;
+     height: 10vh;
+     border-radius: 5px;
+     font-weight: 500;
+     margin-bottom: 30vh;
+     margin-top: 5vh;
+     display: inline;
+      background: linear-gradient(90deg,  #fbbb2c 0%,  #fbbb2c 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+      width: 50vh;
+    padding-right: 2vh;
+     font-size: 180%;
+     color: #ffffff;
+     cursor: pointer;
+ }
+ .btn-2:hover{
+     background-size: 100% 100%;
+     color: #fafafa;
+ }
+ .fa-location-dot{
+    color: #292f6d;;
+    font-size: 3vw;
+    
+ }
+ .container-xxl4{
+justify-content: center;
+align-items: center;
+
+    height: 90vh;
+    display: flex;
+ }
+ .container-xxl4 h3{
+    color:#fbbb2c;
+   margin-left: 0;
+    font-size: 330%;
+   font-weight: bold;
+   width: 80%;
+  
+
+    
+ }
+ .btn3{
+  border: 3px solid #fbbb2c;
+     width: 60vh;
+     margin-right: 10vw;
+     height: 15vh;
+     border-radius: 5px;
+     font-weight: 500;
+     margin-left: 90px;
+     display: inline;
+      background: linear-gradient(90deg,  #fbbb2c 0%,  #fbbb2c 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+      
+    padding-right: 2vh;
+     font-size: 220%;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+ }
+ .btn3:hover{
+  background-size: 100% 100%;
+  color: #fafafa;
+}
+.frase-local{
+  font-size: 150%;
+ 
+}
+.social-media{
+ 
+}
+.social-media h3{
+  font-size:  2vw;
+  margin-left: 2vw;
+}
+.fa-instagram{
+  color: #292f6d;
+  font-size: 7vh;
+  margin-left: 2vw;
+  padding-bottom: 5vh;
+}
+.fa-instagram:hover{
+  color: #fbbb2c;
+  transition: 0.3s;
+}
+#text-produtos{
+  width: 50%;
+}
+#text-produtos h4{
+color: #fafafa; 
+font-size: 230%;
+
+
+}
+.frase-produtos{
+  font-size: 150%;
+  color: #fafafa;
+}
+.btn-produtos{
+  background-color:  #292f6d;
+     width: 55vh;
+    margin-right: 100px;
+     height: 12vh;
+     border-radius: 5px;
+     font-weight: 500;
+     margin-left: 100px;
+     display: inline;
+    border: none;
+      border-radius: 3px;
+     
+    padding-right: 2vh;
+     font-size: 220%;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.btn-produtos a{
+  text-decoration: none;
+  color: #fafafa;
+}
+.container-materiais{
+  margin-top: 7vh;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-bottom: 20vh;
+}
+.container-produtos{
+  background-color: #fbbb2c;
+   height: auto; 
+   justify-content: center; 
+   align-items: center
+}
+.text-serviços{
+ 
+}
+
+.container-materiais img{
+  width: 320px; /* Defina o tamanho desejado para a imagem */
+  height: 320px; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  display: inline-block;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards
+}
+.text-serviços{
+  
+  object-fit: cover;
+ 
+  overflow: hidden;
+  display: inline-block;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards
+}
+.second_text-serviços{
+  object-fit: cover;
+  
+  overflow: hidden;
+  display: inline-block;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards
+}
+.container-ferramentas img{
+  width: 320px; /* Defina o tamanho desejado para a imagem */
+  height: 320px; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+}
+.container-ferramentas{
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.container-iluminação img{
+  width: 320px; /* Defina o tamanho desejado para a imagem */
+  height: 320px; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+}
+.container-iluminação{
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.container-chuveiro img{
+  width: 320px; /* Defina o tamanho desejado para a imagem */
+  height: 320px; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+} 
+.container-chuveiro {
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.container-ventilador img{
+  width: 320px; /* Defina o tamanho desejado para a imagem */
+  height: 320px; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+}
+.container-ventilador{
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.container-materiais{
+  justify-content: center;
+  padding-bottom: 20vh;
+  display: flexbox !important;
+}
+.title-produtos h3{
+  font-size: 250%;
+   font-weight: bold; 
+   padding-top: 5vh; 
+   object-fit: cover;
+   overflow: hidden;
+   display: inline-block;
+   transform: translateY(100%);
+ opacity: 0;
+ animation: slideIn 1s ease-out forwards;
+   margin-left: 39%;
+}
+.break-produtos{
+  display: none;
+}

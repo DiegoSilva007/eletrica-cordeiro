@@ -1,0 +1,350 @@
+@media(max-width:999px){
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    background-color: #ffffff;
+}
+.text-banner{
+    overflow: hidden;
+    display: inline-block;
+    transform: translateY(-100%);
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards;
+  
+   }
+.title-energia{
+    font-size: 230%;
+   color: #fbbb2c;
+   font-weight: bolder;
+    
+}
+
+.title-second_banner h3{
+  font-family: "Nunito", sans-serif;
+ margin-top: 10%;
+  justify-content: center;
+ font-weight: bold;
+ font-size: 210% !important;
+ margin-left: 15vw !important;
+ padding-bottom: 3%;
+ width: 70%;
+
+}
+.title_banner-serviços h3{
+  font-family: "Nunito", sans-serif;
+  margin-top: 10%;
+   justify-content: center;
+  font-weight: bold;
+  font-size: 210% !important;
+  margin-left:  22vw !important;
+  padding-bottom: 3%;
+  width: 70%;
+}
+.subtitle-energia{
+ color: #292f6d;
+font-size: 130%;
+width: 100%;
+
+}
+#container-serviços{
+    display: block;
+}
+.container-xxl_3{
+display: block !important;
+padding-left: 15px;
+}
+
+   #image-banner img{
+    width: 210px;
+    margin-left: 5vw;
+   margin-top: 5vw;
+   overflow: hidden;
+   display: inline-block;
+   transform: translateY(100%);
+ opacity: 0;
+ animation: slideIn 1s ease-out forwards;
+
+   }
+ 
+ 
+    .image-serviços{
+      display: none;
+    
+       
+       }
+    @keyframes slideIn {
+        from {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+    
+   .container-xxl4{
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    display: block !important;
+   
+    }
+    .container-xxl4 h3{
+      color:#fbbb2c;
+     margin-left: 10vw !important;
+     font-size: 230% !important;
+     font-weight: bold;
+     width: 70% !important;
+    margin-top: 5vh;
+      
+   }
+   .btn3{
+    border: 2px solid #fbbb2c !important;
+       width: auto !important;
+       height: 10vh !important;
+       border-radius: 5px;
+       font-weight: 500;
+     margin-left: 10vw !important;
+       display: inline;
+       margin-top: 3vh !important;
+        background: linear-gradient(90deg,  #fbbb2c 0%,  #fbbb2c 100%); /* Gradiente que começa amarelo e termina transparente */
+        background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+        background-repeat: no-repeat;
+        transition: background-size 1s ease; /* Transição suave */
+        border-radius: 3px;
+       padding-right: 1vh !important;
+       font-size: 170% !important;
+       justify-content: center;
+       align-items: center;
+       cursor: pointer;
+      
+   }
+   .btn3:hover{
+    background-size: 100% 100%;
+    color: #fafafa;
+  }
+  
+   .frase-local p{
+    font-size: clamp(25px, 2vw, 25px) !important;
+    
+    margin-left: 10vw;
+   }
+  .break-serviços{
+    display: none;
+  }
+  .fa-location-dot{
+    color: #292f6d;;
+    font-size: clamp(25px, 2vw, 25px) !important;
+    
+ }  
+ .social-media h3{
+  font-size: clamp(25px, 2vw, 25px) !important;
+  margin-left: 2vw;
+}
+.fa-instagram{
+  color: #292f6d;
+  font-size: clamp(30px, 2vw, 25px) !important;
+  margin-left: 2vw;
+  padding-bottom: 5vh;
+}
+.fa-instagram:hover{
+  color: #fbbb2c;
+  transition: 0.3s;
+}
+#text-produtos{
+  width: auto !important;
+  
+}
+#text-produtos h4{
+color: #fafafa; 
+font-size: 230%;
+font-weight: bold;
+
+}
+.frase-produtos{
+  font-size: 150%;
+  color: #fafafa;
+}
+.btn-produtos{
+  background-color:  #292f6d;
+     width: 40vh !important;
+    margin-right: 100px;
+     height: 10vh !important;
+     border-radius: 5px;
+     font-weight: 500;
+     margin-left: 5px !important;
+     display: inline;
+    border: none;
+      border-radius: 3px;
+     
+    padding-right: 2vh;
+     font-size: 170% !important;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+}
+.btn-produtos a{
+  text-decoration: none;
+  color: #fafafa;
+}
+.second-banner-container{
+  background-color: #fbbb2c;
+  width: 100%; 
+  height: auto;
+  justify-content: center; 
+  align-items: center;
+  display: block !important;
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+  padding-left: 2vh;
+}
+.container-produtos{
+  background-color: #fbbb2c;
+   height: auto; 
+   
+}
+.container-materiais{
+  justify-content: center !important;
+  align-items: center !important;
+  padding-bottom: 20vh;
+  display: block !important;
+}
+.container-ferramentas{
+  justify-content: center;
+  padding-bottom: 20vh;
+  display: block !important;
+}
+.container-iluminação{
+  justify-content: center;
+  padding-bottom: 20vh;
+  display: block !important;
+}
+.container-chuveiro{
+  justify-content: center;
+  padding-bottom: 20vh;
+  display: block !important;
+}
+.container-ventilador{
+   justify-content: center;
+  padding-bottom: 20vh;
+  display: block !important;
+}
+.title-produtos h3{
+  font-size: 200% !important; 
+  font-weight: bold; 
+  padding-top: 2vh;
+   margin-left: 22% !important;
+   width: 50%;
+   object-fit: cover;
+   overflow: hidden;
+   display: inline-block;
+   transform: translateY(100%);
+ opacity: 0;
+ animation: slideIn 1s ease-out forwards
+}
+
+ .text-produtos{
+    margin-top: 2vh;
+     width: 98% !important;
+     padding-left: 3vw !important;
+  
+ }
+ .second_text-produtos{
+  font-size: 145%;
+     width: 98% !important;
+     object-fit: cover;
+   overflow: hidden;
+   display: inline-block;
+   transform: translateY(100%);
+ opacity: 0;
+ animation: slideIn 1s ease-out forwards
+ }
+ .text-produtos h4{
+  color: #ffffff;
+  font-size: 230%;
+  object-fit: cover;
+  overflow: hidden;
+  display: inline-block;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards;
+  width: 100%;
+  
+  }
+.container-materiais img{
+  width: 190px !important; /* Defina o tamanho desejado para a imagem */
+  height: 190px !important; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards;
+margin-left: 17% !important;
+}
+.container-ferramentas img{
+  width: 190px !important; /* Defina o tamanho desejado para a imagem */
+  height: 190px !important; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards;
+margin-left: 17% !important;
+margin-top: 3vh;
+}
+.container-iluminação img{
+  width: 190px !important; /* Defina o tamanho desejado para a imagem */
+  height: 190px !important; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  transform: translateY(100%);
+opacity: 0;
+animation: slideIn 1s ease-out forwards;
+margin-left: 17% !important;
+margin-top: 5vh;
+}
+.container-chuveiro img{
+  width: 190px !important; /* Defina o tamanho desejado para a imagem */
+  height: 190px !important; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards;
+  margin-left: 17% !important;
+  margin-top: 5vh;
+}
+.container-ventilador img{
+  width: 190px !important; /* Defina o tamanho desejado para a imagem */
+  height: 190px !important; /* Mantenha altura e largura iguais para um círculo perfeito */
+  border-radius: 50%;
+  display: inline-block;
+  object-fit: cover;
+  border: 5px solid #292f6d;
+  overflow: hidden;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideIn 1s ease-out forwards;
+  margin-left: 17% !important;
+  margin-top: 5vh;
+}
+ }
+ .break-produtos{
+  display: block !important;
+}
